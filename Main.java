@@ -59,7 +59,7 @@ public class Main {
             //完成登陆请求的构造
             UrlEncodedFormEntity entity = new UrlEncodedFormEntity(valuePairs, Consts.UTF_8);
             HttpPost post = new HttpPost("http://www.zhihu.com/login/email");
-            post.setEntity(entity);
+            get.setEntity(entity);
             httpClient.execute(post);//登录
 
             HttpGet g = new HttpGet("http://www.zhihu.com/question/following");//获取“我关注的问题”页面
