@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class EmotionJudge {
-    private double priorPositive;//积极先验概率
+    public double priorPositive;//积极先验概率
     private double priorNegative;//消极先验概率
     private double priorUnsure;//不确定先验概率
 
