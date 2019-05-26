@@ -15,7 +15,7 @@ import org.apache.http.util.EntityUtils;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.Linkedlist;
 import java.util.List;
 import java.util.Scannee;
 
